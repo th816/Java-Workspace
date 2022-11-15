@@ -24,7 +24,7 @@ public class Run {
 		//bw.method4();
 		//bw.method5();
 		//bw.method6();
-		bw.method7();
+		//bw.method7();
 		
 		
 }
