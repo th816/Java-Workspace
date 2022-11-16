@@ -19,8 +19,23 @@ public class Run {
 		//aa.method10();
 		//aa.method11();
 		//aa.method12();
-		//aa.method13();
-		//aa.method14();
+		B_ArrayCopy bac = new B_ArrayCopy();
+		//bac.method1();
+		//bac.method2();
+		//bac.method3();
+		//bac.method4();
+		//bac.method5();
+		//bac.method6();
+		//bac.method7();
+		//bac.method8();
+		C_DimensionalArray cd = new C_DimensionalArray();
+		//cd.method1();
+		//cd.method2();
+		//cd.method3();
+		//cd.method4();
+		//cd.method5();
+		//cd.method6();
+		//cd.method7();
 	}
 
 }
