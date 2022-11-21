@@ -8,10 +8,9 @@ public class Run {
 		
 		
 		Student st = new Student();
+		st.information();
 		
-		System.out.println(st.information());
-
-		
+	
 	}
 
 }

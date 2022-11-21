@@ -4,12 +4,20 @@ public class Student {
 	
 	
 		
-		private int grade=1;
-		private int classroom=2;
-		private String name="태환";
-		private double height=120.2;
-		private char gender='남';
+		private int grade;
+		private int classroom;
+		private String name;
+		private double height;
+		private char gender;
 		
+		{
+			grade = 3;
+			classroom=15;
+			name="태환";
+			height=140.2;
+			gender='남';
+			
+		}
 		
 		public Student() {
 			
@@ -63,9 +71,10 @@ public class Student {
 			
 			return gender;
 		}
-		public String information() {
+		public void information() {
 			
-			return grade+"학년 "+classroom+"반, 이름은 "+name+", 키는 "+height+" 성별은 "+gender;
+			System.out.printf("%s학생은 %d학년이고 %d반이며, 키는 %.1fcm이고 %c학생입니다.",name,grade,classroom,height,gender);
+			//return grade+"학년 "+classroom+"반, 이름은 "+name+", 키는 "+height+" 성별은 "+gender;
 		}
 
 
