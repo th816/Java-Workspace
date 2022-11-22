@@ -5,7 +5,7 @@ public class Shape {
 	
 		private int type;
 		private double height;
-		private double width;
+		private double widht;
 		private String color = "white";
 		
 		
@@ -15,11 +15,11 @@ public class Shape {
 
 		
 		
-		public Shape(int type, double height, double width) {
+		public Shape(int type, double height, double widht) {
 			
 			this.type = type;
 			this.height = height;
-			this.width = width;
+			this.widht = widht;
 			
 			
 			
@@ -40,7 +40,7 @@ public class Shape {
 		
 		public void setWidth(double width) {
 			
-			this.width = width;
+			this.widht = widht;
 		}
 		
 		public void setColor(String color) {
@@ -60,7 +60,7 @@ public class Shape {
 		
 		public double getWidth() {
 			
-			return width;
+			return widht;
 		}
 		
 		public String getColor() {
@@ -70,7 +70,7 @@ public class Shape {
 		
 		public String information() {
 			
-			return = "";
+			return height+" "+widht+" "+color;
 		}
 	
 	

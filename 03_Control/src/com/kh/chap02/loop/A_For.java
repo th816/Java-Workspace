@@ -240,7 +240,7 @@ public class A_For {
 			
 		}
 		
-		public void mathod9() {
+		public void method9() {
 			//반복문 + String
 			
 			String str = "hello";
@@ -257,9 +257,9 @@ public class A_For {
 			 * 
 			 */
 			
-			for(int i =0; i<=4; i++) {
+			for(int i =1; i<=5; i++) {
 				
-				System.out.println(str.charAt(i));
+				System.out.println(i+"*"+i+"="+i*i);
 				
 			}
 			
@@ -319,7 +319,7 @@ public class A_For {
 			
 			
 			
-			for(int i = 1; i<=0; i++) {
+			for(int i = 1; i<=9; i++) {
 				
 				System.out.printf("%d x %d = %d \n",2, i,(2*i));
 				
